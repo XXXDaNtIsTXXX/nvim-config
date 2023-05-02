@@ -12,7 +12,7 @@ return {
         "clangd",
         "dockerls",
         "pylsp",
-        "sqls",
+        "sqlls",
         "tflint",
       })
     end,
