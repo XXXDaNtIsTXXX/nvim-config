@@ -1,4 +1,7 @@
 -- TODO Test
+-- HACK wtf??
+-- PERF
+
 return {
   -- You can also add new plugins here as well:
   -- Add plugins, the lazy syntax
@@ -12,13 +15,11 @@ return {
   -- },
   {
     "folke/todo-comments.nvim",
-    dependancies = { "nvim-lua/plenary.nvim" },
-    config = function()
-      require("todo-comments").setup {
-        -- your config here
-        -- leave empty for default config
-      }
-    end,
-    events = "VeryLazy",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    -- config = function()
+    --  require("todo-comments").setup { }
+    -- end,
+    opts = {},
+    event = "VeryLazy",
   },
 }
