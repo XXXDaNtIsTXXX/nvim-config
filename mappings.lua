@@ -27,7 +27,7 @@ return {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
-  s = {
+  v = {
     -- Visual mode key mappings
     ["<C-r>"] = { "hy:%s/<C-r>h//gc<left><left><left>", desc = "Replace selected text" },
   },
